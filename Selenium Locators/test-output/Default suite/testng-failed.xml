@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Wipro.Locators.Opencart">
+      <class name="com.Wipro.Locators.TestScenarioLocatorLinktext">
         <methods>
-          <include name="OpenCartBrowser"/>
+          <include name="LocatorsLinkTest"/>
         </methods>
-      </class> <!-- com.Wipro.Locators.Opencart -->
+      </class> <!-- com.Wipro.Locators.TestScenarioLocatorLinktext -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

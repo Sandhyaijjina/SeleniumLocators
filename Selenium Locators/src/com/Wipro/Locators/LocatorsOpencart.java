@@ -31,6 +31,11 @@ public class LocatorsOpencart {
 	    //4.Verify HomePage Title name
 	    String PageName = driver.getTitle();
 	    System.out.println("HomePage Title Name is.." + PageName);
+	    if (PageName.equals("Register Account")) {
+			System.out.println("Verification - TestCase Passed ...!");
+		} else {
+			System.out.println("Verification - TestCase Failed ...!");
+		}
 	    //5.Login in to "demo.opencart.com" with validate credentials
 	    Thread.sleep(3000);
 	    driver.findElement(By.xpath("//a[@class='list-group-item' and text()='Login']")).click();

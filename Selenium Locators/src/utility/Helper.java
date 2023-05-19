@@ -8,7 +8,8 @@ public class Helper {
 	
 	public static WebDriver startBrowser(String browser) {
 		WebDriver driver = null;
-		
+		//ChromeOptions options = new ChromeOptions();
+		//options.addArguments("--disable-notifications");
 		if (browser.equalsIgnoreCase("Chrome") || browser.equalsIgnoreCase("GC") || browser.equalsIgnoreCase("Google Chrome")){
 			System.setProperty("webdriver.chrome.driver","C:\\SeleniumProject\\SeleniumWebDriver launchBrowser\\Chrome Browser Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-18T12:41:21 IST" name="Default suite" finished-at="2023-05-18T12:41:40 IST" duration-ms="19385">
+  <suite started-at="2023-05-18T16:41:52 IST" name="Default suite" finished-at="2023-05-18T16:42:22 IST" duration-ms="30258">
     <groups>
     </groups>
-    <test started-at="2023-05-18T12:41:21 IST" name="Default test" finished-at="2023-05-18T12:41:40 IST" duration-ms="19385">
-      <class name="com.Wipro.Locators.Opencart">
-        <test-method signature="OpenCartBrowser()[pri:0, instance:com.Wipro.Locators.Opencart@68c72235]" started-at="2023-05-18T12:41:21 IST" name="OpenCartBrowser" finished-at="2023-05-18T12:41:40 IST" duration-ms="19341" status="PASS">
+    <test started-at="2023-05-18T16:41:52 IST" name="Default test" finished-at="2023-05-18T16:42:22 IST" duration-ms="30258">
+      <class name="com.Wipro.Locators.TestScenarioLocatorLinktext">
+        <test-method signature="LocatorsLinkTest()[pri:0, instance:com.Wipro.Locators.TestScenarioLocatorLinktext@68c72235]" started-at="2023-05-18T16:41:52 IST" name="LocatorsLinkTest" finished-at="2023-05-18T16:42:22 IST" duration-ms="30225" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenCartBrowser -->
-      </class> <!-- com.Wipro.Locators.Opencart -->
+        </test-method> <!-- LocatorsLinkTest -->
+      </class> <!-- com.Wipro.Locators.TestScenarioLocatorLinktext -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
